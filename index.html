@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A simple responsive multi-page website project with Home, About, and Contact pages." />
+  <title>My Website | Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">MyWebsite</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle Menu">☰</button>
+      <nav class="nav" id="navMenu">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div>
+        <p class="greeting" id="greeting">Welcome!</p>
+        <h1>Responsive Multi-Page Website</h1>
+        <p>
+          This website demonstrates HTML, CSS, JavaScript, responsive design,
+          and basic SEO.
+        </p>
+        <a href="about.html" class="btn">Learn More</a>
+      </div>
+      <div class="hero-card">
+        <h2>Today</h2>
+        <p id="dateTime">Loading date...</p>
+      </div>
+    </section>
+
+    <section class="container features">
+      <article class="card">
+        <h2>Responsive Design</h2>
+        <p>The layout adjusts on desktop, tablet, and mobile screens.</p>
+      </article>
+      <article class="card">
+        <h2>Clean Layout</h2>
+        <p>Semantic HTML and organized sections make the site easy to read.</p>
+      </article>
+      <article class="card">
+        <h2>Interactive Features</h2>
+        <p>JavaScript adds menu toggle, dynamic date, and form validation.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> MyWebsite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

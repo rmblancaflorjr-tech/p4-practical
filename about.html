@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About page for a simple responsive multi-page website project." />
+  <title>My Website | About</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">MyWebsite</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle Menu">☰</button>
+      <nav class="nav" id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <section class="card">
+      <h1>About This Website</h1>
+      <p>
+        This sample website was created to demonstrate a basic multi-page layout
+        using HTML, CSS, and JavaScript.
+      </p>
+      <p>
+        It uses semantic elements like header, nav, main, section, and footer
+        to keep the structure clean and organized.
+      </p>
+    </section>
+
+    <section class="grid-2">
+      <article class="card">
+        <h2>Design Principles</h2>
+        <p>
+          The website follows contrast, alignment, repetition, and proximity to
+          improve readability and visual balance.
+        </p>
+      </article>
+      <article class="card">
+        <h2>Responsive Features</h2>
+        <p>
+          The layout changes smoothly on smaller screens so it remains usable on
+          phones and tablets.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> MyWebsite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
